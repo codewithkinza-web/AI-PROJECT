@@ -28,11 +28,25 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 1,
       "metadata": {
-        "id": "ymepVAqpeLMF"
+        "id": "ymepVAqpeLMF",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f9cbd8c3-5181-417e-f9ee-582a1a0e47a8"
       },
-      "outputs": [],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter destination (Dubai, Turkey, Malaysia): Dubai\n",
+            "Enter your budget: 150000\n",
+            "Flight available for Dubai!\n"
+          ]
+        }
+      ],
       "source": [
         "place = input(\"Enter destination (Dubai, Turkey, Malaysia): \")\n",
         "budget = int(input(\"Enter your budget: \"))\n",
